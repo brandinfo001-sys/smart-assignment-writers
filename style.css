@@ -420,3 +420,51 @@ nav a{
 
 
 }
+/* FAQ Section */
+
+.faq-container{
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+
+.faq-box{
+
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    border-left:5px solid #f58220;
+
+}
+
+
+
+.faq-box h3{
+
+    color:#12355b;
+    font-size:20px;
+    margin-bottom:15px;
+
+}
+
+
+
+.faq-box p{
+
+    color:#555;
+    line-height:1.8;
+    font-size:16px;
+
+}
+
+
+.faq-box:hover{
+
+    transform:translateY(-5px);
+    transition:0.3s;
+
+}
