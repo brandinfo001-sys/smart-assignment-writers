@@ -907,62 +907,38 @@ footer a:hover{
 
 .whatsapp{
 
-
     position:fixed;
-
-
     right:25px;
-
-
     bottom:25px;
 
-
-    width:60px;
-
-
-    height:60px;
-
+    width:65px;
+    height:65px;
 
     background:#25D366;
-
-
     color:white;
-
 
     border-radius:50%;
 
-
     display:flex;
-
-
     justify-content:center;
-
-
     align-items:center;
 
-
-    font-size:30px;
-
+    font-size:34px;
 
     z-index:999;
 
-
-    box-shadow:
-    0 10px 25px rgba(0,0,0,0.25);
-
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
 
     transition:0.3s;
-
 
 }
 
 
-
 .whatsapp:hover{
 
+    transform:scale(1.12);
 
-    transform:scale(1.1);
-
+    background:#128C7E;
 
 }
 
