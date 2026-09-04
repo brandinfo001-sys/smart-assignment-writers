@@ -923,25 +923,23 @@ info.smartassignmentwriters@gmail.com
 
 
 
-<form>
+<form onsubmit="sendWhatsApp(); return false;">
 
 
-<input type="text" placeholder="Your Name">
+<input id="name" type="text" placeholder="Your Name" required>
 
 
-<input type="email" placeholder="Your Email">
+<input id="email" type="email" placeholder="Your Email" required>
 
 
-<input type="text" placeholder="Phone Number">
+<input id="phone" type="text" placeholder="Phone Number" required>
 
 
-<textarea placeholder="Your Requirements"></textarea>
+<textarea id="message" placeholder="Your Requirements" required></textarea>
 
 
 <button type="submit">
-
 Submit Request
-
 </button>
 
 
@@ -1060,7 +1058,37 @@ target="_blank">
 
 
 
+<script>
 
+function sendWhatsApp(){
+
+let name = document.getElementById("name").value;
+
+let email = document.getElementById("email").value;
+
+let phone = document.getElementById("phone").value;
+
+let message = document.getElementById("message").value;
+
+
+let whatsappMessage = 
+"Hello Smart Assignment Writers,%0A%0A" +
+"Name: " + name + "%0A" +
+"Email: " + email + "%0A" +
+"Phone: " + phone + "%0A%0A" +
+"Requirements:%0A" + message;
+
+
+let whatsappURL =
+"https://wa.me/447414618615?text=" + whatsappMessage;
+
+
+window.open(whatsappURL, "_blank");
+
+}
+
+</script>
+  
 </body>
 
 </html>
