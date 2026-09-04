@@ -1229,3 +1229,438 @@ section{
     color:#666;
 
 }
+/* =========================
+   TRUST BAR
+========================= */
+
+
+.trust-bar{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:25px;
+
+    padding:50px 8%;
+
+    background:#12355b;
+
+}
+
+
+
+.trust-bar div{
+
+    background:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    transition:.3s;
+
+}
+
+
+
+.trust-bar div:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.trust-bar h3{
+
+    color:#f58220;
+
+    font-size:28px;
+
+}
+
+
+
+.trust-bar p{
+
+    color:#12355b;
+
+    font-weight:600;
+
+}
+
+
+
+
+
+/* =========================
+   CTA BANNER
+========================= */
+
+
+.cta-banner{
+
+    text-align:center;
+
+    background:
+
+    linear-gradient(
+    135deg,
+    #12355b,
+    #1f5f99
+    );
+
+    color:white;
+
+    border-radius:30px;
+
+    margin:60px 8%;
+
+}
+
+
+
+.cta-banner h2{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.cta-banner p{
+
+    font-size:20px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+
+section{
+
+    padding:100px 8%;
+
+}
+
+
+
+.title{
+
+    text-align:center;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    color:#12355b;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.left-title{
+
+    text-align:left;
+
+}
+
+
+
+.section-text{
+
+    text-align:center;
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    color:#666;
+
+}
+
+
+
+
+
+/* =========================
+   SERVICES CARDS
+========================= */
+
+
+.services-section{
+
+    background:#f8fbff;
+
+}
+
+
+
+.cards{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+
+
+
+.service-card{
+
+
+    width:320px;
+
+    background:white;
+
+    padding:40px 30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+
+    0 25px 55px rgba(0,0,0,.15);
+
+}
+
+
+
+.service-card i{
+
+    width:75px;
+
+    height:75px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin:auto;
+
+    background:#fff0e3;
+
+    color:#f58220;
+
+    font-size:32px;
+
+    border-radius:50%;
+
+}
+
+
+
+.service-card h3{
+
+    margin:20px 0 10px;
+
+    color:#12355b;
+
+    font-size:24px;
+
+}
+
+
+
+.service-card p{
+
+    color:#666;
+
+    font-size:17px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   ABOUT
+========================= */
+
+
+.about-section{
+
+    background:white;
+
+}
+
+
+
+.about{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+
+
+.about img{
+
+    width:45%;
+
+    border-radius:35px;
+
+    box-shadow:
+
+    0 20px 50px rgba(0,0,0,.15);
+
+}
+
+
+
+.about p{
+
+    font-size:19px;
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* =========================
+   WHY CHOOSE
+========================= */
+
+
+.choose{
+
+
+    background:
+
+    linear-gradient(
+    135deg,
+    #12355b,
+    #174a78
+    );
+
+
+}
+
+
+
+.choose .title{
+
+    color:white;
+
+}
+
+
+
+.choose-box{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.choose-item{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+
+
+.choose-item:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.choose-item i{
+
+    font-size:35px;
+
+    color:#f58220;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.choose-item h3{
+
+    color:#12355b;
+
+    font-size:23px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.choose-item p{
+
+    color:#666;
+
+}
